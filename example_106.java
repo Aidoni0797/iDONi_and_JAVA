@@ -4,7 +4,11 @@ public class example_106 {  //Tests - имя класса
         int b = 5;
 
         example_106 data = new example_106();  //создание экуземпляра класса Tests
-        //вызов метода
+//    Все возможные варианты запоминай
+        example_106.plus(a, b);
+        data.plus(a, b);
+        data.minus(a, b);
+        plus(a, b);
     }
     static void plus(int x, int y){
         System.out.println(x + " + " + y);
